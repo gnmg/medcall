@@ -1,0 +1,14 @@
+{
+    "Are you sure you want to delete this reminder?": "このリマインダー本当に削除をしますか？",
+    "Enter a title that is easy to　remember.": "覚えやすいタイトルを入力してください。",
+    "Enter the time you want to be called.": "リマインダーが欲しい時間を入力してください",
+    "Enter the phone number you would like to be called at.": "サービスに登録する自宅の固定電話番号を記入してください。",
+    "Can not register cell phone number.": "（携帯電話の番号は登録できません）",
+    "Choose the voice that the message will be played in.": "メッセージの声をお選びください。",
+    "Type in a message that will be played when the call is answered.": "お好きなメッセージの内容を入力してください。",
+    "Do you want to have an alert email sent if the call is not answered?": "電話に出ない場合、お知らせ用のメールを受け取りますか？",
+    "Enter the email addess where you want the alert sent to.": "上記の場合のメールアドレスを入力してください。"
+
+
+
+}

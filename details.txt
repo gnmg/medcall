@@ -1,0 +1,57 @@
+Telnyx Portal
+---------------------
+https://portal.telnyx.com/
+Email: androidt@androidtoall.com
+Password: nmdudhagara
+
+Cpanel:
+----------------------
+URL: kusuri.j-start.jp:2083/
+User: kusuri
+Password: c5jERCKc4JivEp7
+
+
+Databse:
+----------------------
+databae: kusuri_telnyx
+user: kusuri_db_telnyx
+Pass: ve}D1a(E{kgU
+
+
+Cron URL
+* * * * * cd /home/kusuri/public_html && php artisan schedule:run >> /dev/null 2>&1
+
+SMTP:
+----------------------
+define("SMTP_HOST",'host.remotley.com');
+define("SMTP_USER",'info@remotley.com');
+define("SMTP_PASS",'*nD$pUz9e9p3');
+define("SMTP_PORT",465);
+
+
+Stripe Details
+---------------------
+Email: navneetdudhagara001@gmail.com
+Pass: nmdudhagara
+
+
+Verifacaton Bypasscode : ewot-jyzj-euiv-zzbl-tvrk
+
+
+
+Spark Details
+---------------------
+https://spark.laravel.com/login
+Email: ralph@j-start.jp
+Pass: 9z5ttw6nURWrvjv
+API TOKEN: grkJsextTo0AitHmFQrVy3j73RVCUZT59JQ8lRk2	
+
+
+Auth File Command For spark
+-----------------------
+composer config http-basic.spark.laravel.com ralph@j-start.jp grkJsextTo0AitHmFQrVy3j73RVCUZT59JQ8lRk2
+
+
+
+C:\Program Files\Ampps\www\kusuri\app\Providers\RouteServiceProvider.php
+
