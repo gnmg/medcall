@@ -99,6 +99,10 @@ Route::post('/contact', [ContactUsFormController::class, 'ContactUsForm'])->name
 Route::get('/', [PrelaunchemailController::class, 'createmailForm']);
 Route::post('/', [PrelaunchemailController::class, 'PrelaunchemailForm'])->name('Prelaunchemail.store');
 
+Route::get('/top', function () {
+    return view('top');
+});
+
 Route::get('/terms', function () {
     return view('terms');
 });

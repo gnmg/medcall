@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>KusuriKall</title>
+    <title>MedCall</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-204286431-1"></script>
     <script>

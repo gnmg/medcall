@@ -1,4 +1,4 @@
-@extends('layouts.web')
+@extends('layouts.old-web')
 
 @section('content')
 <!-- Start of Header section

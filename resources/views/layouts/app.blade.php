@@ -39,7 +39,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>KusuriKall</title>
+    <title>MedCall</title>
 
     <!-- <link href="/css/app.css" rel="stylesheet"> -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
