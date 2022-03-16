@@ -120,7 +120,7 @@ Route::get('trade', function () {
 });
 
 Route::get('/', function () {
-    return view('index');
+    return view('english-top');
 });
 
 Route::get('affiliate', function () {
