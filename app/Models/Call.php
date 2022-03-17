@@ -54,8 +54,8 @@ class Call extends Model
             //This is used to take off the first 0 and and the +81 country code
             foreach($current_calls as $row){
                 
-                //$rawNumber = ltrim($row->phone_numbers,'0');
-                //$phoneNo = '+81'.$rawNumber;
+                $rawNumber = ltrim($row->phone_numbers,'0');
+                $phoneNo = '+81'.$rawNumber;
 
                 
                 DB::table('call_queue')->insert(
