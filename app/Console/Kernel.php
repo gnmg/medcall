@@ -26,7 +26,8 @@ class Kernel extends ConsoleKernel
     {
         // $schedule->command('inspire')->hourly();
         
-        $schedule->command('send:reminder')->everyMinute();
+        $schedule->command('send:reminder')->everyMinute()
+                 ->appendOutputTo(storage_path('logs/inspire.log'));
     }
 
     /**
