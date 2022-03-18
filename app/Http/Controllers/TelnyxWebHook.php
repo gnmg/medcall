@@ -43,7 +43,7 @@ class TelnyxWebHook extends Controller
                     $call = \Telnyx\Call::retrieve($getQuereRecord->call_ctrl_id);
                     
                     $call->gather_using_speak([
-                            "language" => "ja-JP",
+                            "language" => "en-EN",
                             "voice" => Str::lower($getQuereRecord->message_voice),
                             "payload" => $getQuereRecord->message
                             ]);
