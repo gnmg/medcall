@@ -35,7 +35,7 @@
                 <div class="w-full mb-4">
                     <div class="">
                         <label for="title" class="block mt-3 mb-2 mr-3 text-lg">{{ __('lang.title')}}<span
-                                class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-1">必要</span></label>
+                                class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-3">Required</span></label>
                         <input type="text" id="title" name="title" placeholder="{{ __('lang.title_placeholder')}}"
                             class=" text-sm border-gray-300 md:w-3/4 w-full shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5 @error('title') border-2 border-red-500 @enderror"
                             value="{{ old('title',$call->title) }}">
@@ -62,7 +62,7 @@
                 <div class="w-full mb-7">
                     <div class="">
                         <label for="time" class="block mt-3 mb-2 mr-3 text-lg">{{ __('lang.time')}}<span
-                                class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-1">必要</span></label>
+                                class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-3">Required</span></label>
                         <input type="text" id="time" name="time" placeholder="Time"
                             class=" bs-timepicker text-sm border-gray-300 md:w-3/4 w-full shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5 @error('time') border-2 border-red-500 @enderror"
                             value="{{ old('time',date('H:i',strtotime($call->time))) }}">
@@ -84,7 +84,7 @@
                     <div class">
                         <label for="phone_numbers"
                             class="block mt-3 mb-2 mr-3 text-lg">{{ __('lang.phone_number')}}<span
-                                class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-1">必要</span></label>
+                                class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-3">Required</span></label>
                         <input type="text" id="phone_numbers" name="phone_numbers"
                             class="text-sm border-gray-300 md:w-3/4 w-full shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5 @error('phone_numbers') border-2 border-red-500 @enderror"
                             placeholder="{{ __('lang.phone_number_placeholder')}}" value="{{ old('phone_numbers') }}">
@@ -95,7 +95,7 @@
                         </div>
                         @enderror
                         <div class="block mt-3 mb-2 mr-3 text-sm text-gray-400">
-                            {{ __("Enter the phone number you would like to be called at.")}}<br>{{ __("Can not register cell phone number.")}}</div>
+                            {{ __("Enter the phone number you would like to be called at.")}}</div>
                     </div>
                 </div>
             </div>
@@ -111,7 +111,7 @@
                     <div class="">
                         <label for="message_voice"
                             class="block mt-3 mb-2 mr-3 text-lg">{{ __('lang.message_voice')}}<span
-                                class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-1">必要</span></label>
+                                class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-3">Required</span></label>
                         <label class="inline-flex items-center">
                             <input type="radio" id="message_voice" name="message_voice" value="Male" class=""
                                 placeholder="Message Voice"
@@ -138,7 +138,7 @@
                 <div class="w-full mb-4">
                     <div class="">
                         <label for="message" class="block mt-3 mb-2 mr-3 text-lg">{{ __('lang.message')}}<span
-                                class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-1">必要</span></label>
+                                class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-3">Required</span></label>
 
                         <textarea type="textarea" id="message" name="message"
                             class="text-sm border-gray-300 w-full  md:w-3/4 shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none  @error('message') border-2 border-red-500 @enderror"
@@ -164,7 +164,7 @@
                 <div class="w-full mb-4">
                     <div class="mb-7">
                         <label for="sos" class="block mt-3 mb-2 mr-3 text-lg">{{ __('lang.turn_on_alert_message')}}<span
-                                class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-1">必要</span></label>
+                                class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-3">Required</span></label>
                         <label class="inline-flex items-center">
                             <input type="radio" id="sos" name="sos" value="yes" class="" placeholder="Message Voice"
                                 {{ (old('sos',$call->sos)) == 'yes' ? 'checked' : '' }}>
@@ -181,8 +181,7 @@
                             {{ $message }}
                         </div>
                         @enderror
-                        <div class="block mt-3 mb-2 mr-3 text-sm text-gray-400">
-                            {{ __("Do you want to have an alert email sent if the call is not answered?")}}</div>
+                        
 
                     </div>
 

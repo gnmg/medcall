@@ -8608,6 +8608,8 @@ Sticky Menu
 .saas_two_section_title {
     margin: 0 auto;
     max-width: 700px;
+    margin-bottom: 50px;
+    font-weight: 800;
 }
 
 .saas_two_section_title .title_tag {
@@ -8615,7 +8617,7 @@ Sticky Menu
 }
 
 .saas_two_section_title h2 {
-    font-size: 40px;
+    font-size: 56px;
     padding-top: 15px;
 }
 
@@ -8694,8 +8696,8 @@ Sticky Menu
 .saas_two_banner_section .s2-banner_content .s2-tilte_tag,
 .saas_two_feature_section .s2-feature_text .feature_tag,
 .integration_section .integration_text .feature_tag {
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 56px;
+    font-weight: 800;
     padding: 3px 30px;
     border-radius: 8px;
     display: inline-block;
@@ -8707,7 +8709,7 @@ Sticky Menu
 .saas_two_feature_section .s2-feature_text h2,
 .integration_section .integration_text h2,
 .saas_two_team_section .s2-team_img_text .s2_name_info h3 {
-    font-weight: 700;
+    font-weight: 800;
     color: #010101;
 }
 
@@ -8736,8 +8738,8 @@ Sticky Menu
 .saas_two_feature_section .s2-feature_text p,
 .integration_section .integration_text p {
     color: #353535;
-    font-size: 17px;
-    line-height: 1.588;
+    font-size: 20px;
+    line-height: 150%;
     padding-bottom: 20px;
 }
 
@@ -8837,7 +8839,7 @@ Sticky Menu
 .saas_two_banner_section .s2-banner_content .banner_btn a:hover,
 .saas_two_feature_section .s2-feature_text .saas_btn a:hover,
 .s2-pricing_section .s2-pricing_item .s2-pricing_btn a:hover {
-    color: #fff;
+    color: #666666;
 }
 
 .saas_two_banner_section .s2-banner_content .banner_btn a:hover i,
@@ -8950,8 +8952,8 @@ Sticky Menu
     width: 175px;
     float: right;
     line-height: 55px;
-    border-radius: 0px;
-    background-color: #73299a;
+    border-radius: 20px;
+    background-color: #6194FF;
 }
 
 .saas_two_main_header .saas_sign_up_btn a {
@@ -9128,7 +9130,9 @@ Sticky Menu
 }
 
 .saas_two_banner_section .s2-banner_content p {
-    font-size: 18px;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 300;
     padding-bottom: 35px;
 }
 
@@ -9282,8 +9286,9 @@ Sticky Menu
 }
 
 .saas_two_service_section .service_content_box .service_text_box p {
-    line-height: 1.5;
+    line-height: 150%;
     color: #666666;
+    font-size: 18px;
 }
 
 
@@ -10024,7 +10029,7 @@ Sticky Menu
     border-bottom: 1px solid #e6e8e9;
     padding: 18px 25px 16px 45px;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .s2-pricing_section .s2-pricing_item .s2-pricing_list li:last-child {
@@ -10835,7 +10840,7 @@ Sticky Menu
 
 @media screen and (max-width: 480px) {
     .saas_two_banner_section {
-        padding-top: 180px;
+        padding-top: 100px;
     }
     .saas_two_banner_section .s2-banner_content h1 {
         font-size: 45px;
@@ -10888,7 +10893,7 @@ Sticky Menu
         padding: 60px 0px;
     }
     .s2-faq_section .s2_faq_content button {
-        padding-right: 20px;
+        padding-right: 18px;
     }
     .s2-faq_section {
         padding: 60px 0px 25px;
@@ -10897,7 +10902,7 @@ Sticky Menu
         padding: 60px 0 40px;
     }
     .saas_two_section_title h2 {
-        font-size: 30px;
+        font-size: 40px;
     }
     .saas_early {
         padding: 60px 0px 40px;
@@ -10909,10 +10914,10 @@ Sticky Menu
         font-size: 30px;
     }
     .saas_two_service_section .service_content {
-        padding-top: 40px;
+        padding-top: 20px;
     }
     .saas_two_about_section .s2-about_text_icon .s2-about_text h3 {
-        font-size: 30px;
+        font-size: 25px;
     }
     .saas_two_about_section .s2-about_text_icon {
         margin-bottom: 15px;
@@ -18456,4 +18461,78 @@ div#pm-preloader {
 }
 .plan-price-num {
     font-size: 3rem;
+}
+.plan-price-num-bottom {
+    font-size: 1rem;
+}
+
+/*----------------------------------------------------------------------------------
+利用規約
+----------------------------------------------------------------------------------*/
+.terms {
+    padding: 110px 0;
+}
+@media (max-width: 1000px) {
+    .terms {
+        padding: 0 0 30px;
+    }
+}
+.terms__inner {
+    width: 800px;
+    margin: 0 auto;
+}
+@media (max-width: 1000px) {
+    .terms__inner {
+        width: 80%;
+    }
+}
+.terms__title {
+    font-size: 2.4375rem;
+    font-weight: bold;
+    text-align: center;
+    color: #1F2C5C;
+    margin: 50px 0;
+}
+@media (max-width: 1000px) {
+    .terms__title {
+        margin: 40px 0 20px;
+        font-size: 2rem;
+    }
+}
+.terms__item-head {
+    background: #CDCDCD;
+    font-weight: bold;
+    color: #4D4D4D;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 1.3125rem;
+}
+@media (max-width: 1000px) {
+    .terms__item-head {
+        font-size: 1.2rem;
+    }
+}
+.terms__item-excerpt {
+    text-align: justify;
+    padding: 30px 0;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #4D4D4D;
+}
+@media (max-width: 1000px) {
+    .terms__item-excerpt {
+        padding: 15px 0;
+        font-size: 1rem;
+    }
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+@media (max-width: 1000px) {
+    .sp-hide {
+        display: none;
+    }
 }

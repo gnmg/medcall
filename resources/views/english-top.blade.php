@@ -3,20 +3,21 @@
 @section('content')
 <!-- Start of Header section
         ============================================= -->
-        <section id="saas_two_banner" class="saas_two_banner_section relative-position">
+<section id="saas_two_banner" class="saas_two_banner_section relative-position">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="s2-banner_area relative-position">
-                    <div class="text-center s2-banner_content saas2-headline pera-content">
+                    <div class="s2-banner_content saas2-headline pera-content">
                         <h1>
-                            お薬をのみ</br>わすれますか？
+                            Help Your Loved One Remember Their Medicine
                         </h1>
                         <p>
-                            お薬の飲み忘れを防ぐために</br>毎日お電話でお知らせします
+                            Receive up to 5 calls a day with personalized message. We will even send a SOS email if the
+                            call is not answered. 
                         </p>
                         <div class="text-center banner_btn">
-                            <a href="#">21日間無料試し</a>
+                            <a href="register">21 Day Free Trial</a>
                         </div>
                     </div>
                     <div class="banner_mockup d-none d-lg-block">
@@ -35,7 +36,7 @@
     <div class="container">
         <div id="features" class="text-center saas_two_section_title saas2-headline">
 
-            <h2>KusuriKall は毎日定刻にお薬を服用するためにお電話でリマインドします</h2>
+            <h2>Why MedCall?</h2>
         </div>
         <!-- /section title -->
         <div class="service_content">
@@ -85,9 +86,10 @@
 
                         </div>
                         <div class="service_text_box saas2-headline pera-content">
-                            <h3>電話でお知らせ</h3>
+                            <h3>Five Remidner Calls a Day</h3>
                             <p>
-                                ご自宅の固定電話に1日3回まで、お薬の時間にお電話をします。
+                                Receive up to five reminder calls a day. No need to use just for medicine. Remind your
+                                or a loved one about anything.
                             </p>
                         </div>
                     </div>
@@ -101,7 +103,7 @@
                                     viewBox="0 0 512.01 512.01" width="512" xmlns="http://www.w3.org/2000/svg">
                                     <g>
                                         <path style="fill:#6194FF;"
-                                            d="m234.603 46.947-134.809 82.058h-84.794c-8.284 0-15 6.716-15 15v224c0 8.284 6.716 15 15 15h84.794l134.808 82.058c29.996 18.259 68.398-3.311 68.398-38.439v-341.238c0-35.116-38.394-56.703-68.397-38.439zm-204.603 112.058h59v194h-59zm243 267.619c0 11.698-12.787 18.908-22.8 12.813l-131.2-79.862v-207.14l131.2-79.861c9.995-6.084 22.8 1.091 22.8 12.813z" />
+                                            d="m234.603 46.947-134.809 82.058h-84.794c-8.284 0-15 6.716-15 15v224c0 8.284 6.716 15 15 15h84.794l134.808 82.058c29.996 18.259 68.398-3.311 ad68.398-38.439v-341.238c0-35.116-38.394-56.703-68.397-38.439zm-204.603 112.058h59v194h-59zm243 267.619c0 11.698-12.787 18.908-22.8 12.813l-131.2-79.862v-207.14l131.2-79.861c9.995-6.084 22.8 1.091 22.8 12.813z" />
                                         <path style="fill:#6194FF;"
                                             d="m345.678 217.114c-5.858 5.858-5.858 15.355 0 21.213 9.77 9.771 9.771 25.584 0 35.355-5.858 5.858-5.858 15.355 0 21.213 5.857 5.858 15.355 5.859 21.213 0 21.444-21.444 21.444-56.337 0-77.781-5.858-5.858-15.356-5.858-21.213 0z" />
                                         <path style="fill:#6194FF;"
@@ -114,9 +116,10 @@
 
                         </div>
                         <div class="service_text_box saas2-headline pera-content">
-                            <h3>パーソナライズされたメッセージ内容</h3>
+                            <h3>Personalized Message</h3>
                             <p>
-                                メッセージの内容はパーソナライズされているのでどのお薬を飲むのかをメッセージで伝えることができます。
+                                Play a different personalized message for each reminder. Give instructions on what
+                                medicine needs to be taken. Choose a male or female voice.
                             </p>
                         </div>
                     </div>
@@ -140,15 +143,16 @@
                             </div>
                         </div>
                         <div class="service_text_box saas2-headline pera-content">
-                            <h3>電話に出ないと…</h3>
+                            <h3>No Answer SOS Email</h3>
                             <p>
-                                3回お電話しても電話にでない場合は、事前に登録されている方にお薬の飲み忘れがあることをメールでお知らせします。
+                                For each reminder 3 attempts will be made in five minute intervals. If the third call is
+                                not answered we will send an SOS email.
                             </p>
                         </div>
                     </div>
                 </div>
                 <!-- /service-content -->
-                <div class="col-lg-4 col-md-6 wow fadeFromUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                <!-- <div class="col-lg-4 col-md-6 wow fadeFromUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="service_content_box relative-position">
                         <div class="service_icon_box relative-position">
                             <div class="upper_icon">
@@ -169,9 +173,9 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- /service-content -->
-                <div class="col-lg-4 col-md-6 wow fadeFromUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                <!-- <div class="col-lg-4 col-md-6 wow fadeFromUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="service_content_box relative-position">
                         <div class="service_icon_box relative-position">
                             <div class="upper_icon">
@@ -207,9 +211,9 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- /service-content -->
-                <div class="col-lg-4 col-md-6 wow fadeFromUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <!-- <div class="col-lg-4 col-md-6 wow fadeFromUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                     <div class="service_content_box relative-position">
                         <div class="service_icon_box relative-position">
                             <div class="upper_icon">
@@ -291,7 +295,7 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- /service-content -->
             </div>
         </div>
@@ -303,10 +307,8 @@
         ============================================= -->
 <section id="saas_two_about" class="saas_two_about_section relative-position">
     <div class="container">
-        <div class="text-left saas_two_section_title saas2-headline">
-            <span class="title_tag">
-                クスリコールはこんな方におすすめします
-            </span>
+        <div id="features" class="text-center saas_two_section_title saas2-headline">
+            <h2>Who is Medcall For?</h2>
         </div>
         <div class="about_content_s2">
             <div class="row">
@@ -314,15 +316,18 @@
                 <div class="col-lg-6 col-md-12 wow fadeFromLeft d-none d-lg-block" data-wow-delay="300ms"
                     data-wow-duration="1500ms">
                     <div class="s2-about_img">
-                        <img src="assets/img-english/saas-c/about/forget-old.jpg" alt="">
+                        <img src="assets/img-english/saas-c/about/oldman-med.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 wow fadeFromRight" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="s2-about_text_icon">
                         <div class="s2-about_text saas2-headline pera-content">
-                            <h3>ご高齢者に…</h3>
+                            <h3>Elderly Pateints</h3>
                             <p>
-                                物忘れ多くなってきたご高齢者や認知症に悩まれている方などはお薬の飲み忘れが深刻な問題になります。スマートフォンが使いこなせない方やお持ちでない方も多いことでしょう。クスリコールは毎日、お薬を飲む時間にパーソナライズした電話をかけ何を飲むのかお知らせします。
+                                Elderly people that may be suffering from dementia particularly have trouble remembering
+                                to take their medicine. They also may not be able to use smartphone applications.
+                                Medcall makes reminder calls to a regular phone number so there is no need to learn how
+                                to use a new application.
                             </p>
                         </div>
                     </div>
@@ -335,9 +340,20 @@
                 <div class="col-lg-6 col-md-12 wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="s2-about_text_icon">
                         <div class="s2-about_text saas2-headline pera-content">
-                            <h3>お忙しい人に…</h3>
+                            <h3>Care Takers</h3>
+                            <!-- <ul class="">
+                                <li>Have peace of mind knowing that your loved is taking their medicine.</li>
+                                <li>Give your loved one
+                                the independence they need that comes without having to be nagged.</li>
+                                <li>Know that your loved
+                                one will have better health outcomes.</li>
+                            </ul> -->
+
                             <p>
-                                忙しい毎日で、ついついお薬を飲み忘れてしまう、そんな経験ありませんか。スマートフォンのアプリがあっても見落としてしまう。そんなあなたに私たちが毎日お電話でお知らせします。
+                                Have peace of mind knowing that your loved one is taking their medicine. Give your loved one
+                                the independence they need that comes without having to be nagged. Know that your loved
+                                one will have better health outcomes.
+
                             </p>
 
                         </div>
@@ -346,18 +362,18 @@
                 <div class="col-lg-6 col-md-12 wow fadeFromRight d-none d-lg-block" data-wow-delay="300ms"
                     data-wow-duration="1500ms">
                     <div class="s2-about_img">
-                        <img src="assets/img-english/saas-c/banner/banner-img2.png" alt="">
+                        <img src="assets/img-english/saas-c/about/oldwoman-med.jpg" alt="">
                     </div>
                 </div>
             </div>
         </div>
         <!-- /about first content -->
-        <div class="about_content_s2">
+        <!-- <div class="about_content_s2">
             <div class="row">
                 <div class="col-lg-6 col-md-12 wow fadeFromLeft d-none d-lg-block" data-wow-delay="300ms"
                     data-wow-duration="1500ms">
                     <div class="s2-about_img">
-                        <img src="assets/img-english/saas-c/about/chatting-grandparents.jpg" alt="">
+                        <img src="assets/img-english/saas-c/banner/banner-img2.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 wow fadeFromRight" data-wow-delay="300ms" data-wow-duration="1500ms">
@@ -371,7 +387,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- /about first content-->
     </div>
 </section>
@@ -381,10 +397,8 @@
         ============================================= -->
 <section id="s2-faq" class="s2-faq_section relative-position">
     <div class="container">
-        <div id="faq" class="text-center saas_two_section_title saas2-headline">
-            <span class="title_tag">
-                よくある質問
-            </span>
+    <div id="features" class="text-center saas_two_section_title saas2-headline">
+            <h2>Frequently Ask Questions</h2>
         </div>
         <!-- /section title -->
         <div class="s2_faq_content">
@@ -394,90 +408,87 @@
                         <div class="s2_faq">
                             <div class="s2_faq-header" id="heading1">
                                 <button class="collapsed" data-toggle="collapse" data-target="#collapse1">
-                                    01. 無料でお試しできますか？
+                                    01. Can I get a free trial？
                                 </button>
                             </div>
                             <div id="collapse1" class="collapse" data-parent="#accordionExample">
                                 <div class="s2_faq-body">
-                                    はい。ご登録後21日間、無料でお試しいただけます。22日目にご登録されたクレジットカードからお支払いがされ、毎月同じ日にお支払いとなります。
+                                    Yes, we have a 21 day free trial. You will need a credit card for the trial. Cancel anytime before the end of the trial and your card will not be charged.
                                 </div>
                             </div>
                         </div>
                         <div class="s2_faq">
                             <div class="s2_faq-header" id="headingTwo">
                                 <button class="collapsed" data-toggle="collapse" data-target="#collapseTwo">
-                                    02. 登録電話を携帯電話に設定できますか。
+                                    02. Can reminder calls be made to a mobile phone?
                                 </button>
                             </div>
                             <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
                                 <div class="s2_faq-body">
-                                    申し訳ございません。固定電話へのお電話のみとなります。
+                                    Yes.
                                 </div>
                             </div>
                         </div>
                         <div class="s2_faq">
                             <div class="s2_faq-header" id="headingThree">
                                 <button class="collapsed" data-toggle="collapse" data-target="#collapseThree">
-                                    03. 電話に出なかった時のお知らせとはどういうものですか？
+                                    03. What happens if the call is not answered?
                                 </button>
                             </div>
                             <div id="collapseThree" class="collapse" data-parent="#accordionExample">
                                 <div class="s2_faq-body">
-                                    登録された電話番号にお客様が設定したお時間にお電話をします。電話に出られるまで5分間おきに3回かけます。もし電話にでない場合、登録されているご家族またはケアテイカーあてにメールにて電話にでなかったことをお知らせします。
+                                    If the call is not answered on the first attempt we will try two more times in five minute intervals. If the call is not answered on the third and last attempt we will send an email to the registered email. This can be to yourself or a caregiver notifying them that the call was not answered. 
                                 </div>
                             </div>
                         </div>
                         <div class="s2_faq">
                             <div class="s2_faq-header" id="headingFour">
                                 <button class="collapsed" data-toggle="collapse" data-target="#collapseFour">
-                                    04. お支払方法は？
+                                    04. How do I pay for the service?
                                 </button>
                             </div>
                             <div id="collapseFour" class="collapse" data-parent="#accordionExample">
-                                <div class="s2_faq-body">クレジットカードでのお支払いとなります。
-                                    At the moment we only accept credit card. Your credit card will be charged on the
-                                    27th of every month. Your first months charge will be calculated according to the
-                                    number of days between the date you start the service and the 27th of the month.
+                                <div class="s2_faq-body">We only take payment by credit card. After your free trial has finished your card will be charged monthly. If you cancel before the trial is finished your card will not be charged.
                                 </div>
                             </div>
                         </div>
                         <div class="s2_faq">
                             <div class="s2_faq-header" id="heading5">
                                 <button class="collapsed" data-toggle="collapse" data-target="#collapse5">
-                                    05. スマートフォンのアプリではだめなの？
+                                    05. Why not just a smartphone application?
                                 </button>
                             </div>
                             <div id="collapse5" class="collapse" data-parent="#accordionExample">
                                 <div class="s2_faq-body">
-                                    スマートフォンには多くの便利な機能のついたアプリがあります。しかし、常に手元に持ち歩いていなければアプリの意味がありません。特に多くのご高齢者は携帯の不携帯が多いようです。クスリコールは、家の固定電話にお電話でお知らせをするため、聞こえない、ということがなく、毎日、薬の服用を忘れません。
+                                    Smartphone applications do work but we feel they are less efective than an actual phone call. To see the applcation alert you need to have the smart phone with you at all times. Where as with a house phone the call can usuall be heard throughout the house. The service can be used to call a mobile phone but often people do not have the phone with them in the house especially older people.
                                 </div>
                             </div>
                         </div>
                         <div class="s2_faq">
                             <div class="s2_faq-header" id="heading6">
                                 <button class="collapsed" data-toggle="collapse" data-target="#collapse6">
-                                    06. クスリコールを別の用途で使用できますか？
+                                    06. Can I use the service to remind me of other things?
                                 </button>
                             </div>
                             <div id="collapse6" class="collapse" data-parent="#accordionExample">
                                 <div class="s2_faq-body">
-                                    はい。クスリコールはお薬のリマインドだけではなく、お好きなようにご利用いただけます。モーニングコールやその日のスケジュールのリマインドにもご利用いただけます。
+                                    Yes, the service can be used to remind you or a loved one of anything important that needs reminding.
                                 </div>
                             </div>
                         </div>
                         <div class="s2_faq">
                             <div class="s2_faq-header" id="heading7">
                                 <button class="collapsed" data-toggle="collapse" data-target="#collapse7">
-                                    07. スマートフォンの時代になぜ固定電話？
+                                    07. How do I cancel the service?
                                 </button>
                             </div>
                             <div id="collapse7" class="collapse" data-parent="#accordionExample">
                                 <div class="s2_faq-body">
-                                    不思議に思われる方も多いことでしょう。とても便利で生活に欠かせないスマートフォンですが、ご高齢者やスマホを使いこなせない方には固定電話でのご連絡がまだまだ必要な時代です。スマホは便利で慣れすぎてしまいアラームをすぐに消してしまう、その場から立ち上がらないから忘れてしまう、などの問題を解決するのがクスリコールです。
+                                    You can cancel the service in the dashboard after loggin in. You can continue using the service until the next billing date. You will also need to delete your reminder calls.
                                 </div>
                             </div>
                         </div>
-                        <div class="s2_faq">
+                        <!-- <div class="s2_faq">
                             <div class="s2_faq-header" id="heading8">
                                 <button class="collapsed" data-toggle="collapse" data-target="#collapse8">
                                     08. キャンセルはいつでもできますか？
@@ -488,7 +499,7 @@
                                     はい。キャンセル後も決まったお支払い日まではサービスを受けることができます。
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -502,10 +513,9 @@
 <section id="s2-pricing" class="s2-pricing_section">
     <div class="container">
         <div class="text-center saas_two_section_title saas2-headline">
-            <h2 id="pricing"> MedCall Pricing</h2>
+            <h2 id="pricing"> Med Call Pricing</h2>
             <p class="pt-2">
-                All plans include a free 1000 yen credit for your to try the service. You will be automatically
-                charged the plan fee if you do not cancel before the credits are used.
+                Signup now for a free 21 day trial. You can cancel anytime before the end of the free trial and your card will not be charged.
             </p>
         </div>
         <!-- /section title -->
@@ -514,32 +524,33 @@
                 <div class="col-lg-6 col-md-6 wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="s2-pricing_item">
                         <div class="clearfix text-center s2-pricing_price ">
-
-                            <strong>月額<span class="plan-price-num">2,650</span>円</strong>
+                            <strong><span class="plan-price-num">$21.50</span></strong></br>
+                            <strong><span class="plan-price-num-bottom">per month</span></strong>
                         </div>
+                        
 
                         <div class="s2-pricing_list ul-li-block">
                             <ul>
                                 <li class="text-center">
-                                    21日間無料試し
+                                    21 Day Free Trial
                                 </li>
                                 <li class="text-center">
-                                    毎日3回まで固定電話薬コール
+                                    Up to 5 Reminder Calls a Day
                                 </li>
                                 <li class="text-center">
-                                    いつでもキャンセール可能
+                                    Cancel Anytime
                                 </li>
                                 <li class="text-center">
-                                パーソナライズされたメッセージ内容
+                                    Personalized Reminder Message
                                 </li>
                                 <li class="text-center">
-                                電話に出ないとメールでお知らせ
+                                    SOS Alert Email to Caregiver
                                 </li>
 
                             </ul>
                         </div>
                         <div class="s2-pricing_btn">
-                            <a href="#">21日間無料試し</a>
+                            <a href="register">Start Free Trial</a>
                         </div>
                     </div>
                 </div>
@@ -558,14 +569,14 @@
 
 <!-- Start of about sign up section
         ============================================= -->
-<div id="about" class="about">
+<!-- <div id="about" class="about">
     <div class="container">
         <div class="row justify-content-center">
             <div class="text-center col-lg-8 col-md-12">
-                <h1>About KusuriKall</h1>
+                <h1>About Medcall</h1>
             </div>
             <div class="col-lg-10 col-md-12">
-                <p>KusuriKall was started to help people like me, a kidney transplant recipient, remember to take
+                <p>Medcall was started to help people like me, a kidney transplant recipient, remember to take
                     their medicine. For transplant patients it is very critical that medications are taken every
                     time and on time.</p>
                 <p>I started using a smartphone application and still do just as an extra reminder but the app was
@@ -581,7 +592,7 @@
                 <p>Medicine adherence is not just the patients responsibility especially for older people or those
                     with Alzheimer’s. It is also the responsibility of those who are taking care of patients or
                     family members that need to help to adhere to medication requirements.</p>
-                <p>For these caretakers KusuriKall has features that help you keep your patients or family members
+                <p>For these caretakers Medcall has features that help you keep your patients or family members
                     on track with their medicine. If the first call is not answered then we will call up to three
                     more times at 5 minute intervals. If the call is not answered then we will send you a text
                     message or email notifying your that the call was not answered.</p>
@@ -591,7 +602,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 
 <!-- End of about sign up section

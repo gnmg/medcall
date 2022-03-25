@@ -1,71 +1,54 @@
-@extends('layouts.web')
+@extends('layouts.english')
 
 @section('content')
 
     <section class="terms">
         <div class="terms__inner">
-            <div class="terms__title">利用規約</div>
+            <div class="terms__title">Terms and Conditions  </div>
             <div class="terms__contents">
                 <div class="terms__item">
-                    <div class="terms__item-head">ユーザー（あなた）</div>
-                    <div class="terms__item-excerpt">本サービスの利用者とは、くすりコールに登録し、本サービスを利用している法定年齢の者を指します。</div>
+                    <div class="terms__item-head">User (You)</div>
+                    <div class="terms__item-excerpt">A user of the service refers to any person of legal age which has registered and is using the Medcall service. </div>
                 </div>
                 <div class="terms__item">
-                    <div class="terms__item-head">受信者</div>
-                    <div class="terms__item-excerpt">サービスの受信者は、音声リマインダー/通知またはSOSアラート（電子メールまたはショートメッセージサービス、つまりSMSを介して）を受信する人を指します。</div>
+                    <div class="terms__item-head">Recipient</div>
+                    <div class="terms__item-excerpt">A recipient of the service is any person who receives a voice reminder/notification or an SOS alert via email.</div>
                 </div>
                 <div class="terms__item">
-                    <div class="terms__item-head">音声によるリマインダーと通知</div>
-                    <div class="terms__item-excerpt">音声リマインダーまたは通知は、受信者に発信され、その後に再生される音声メッセージが続く電話です。リマインダーの送信は、電話をかけ、音声メッセージを再生することです。</div>
+                    <div class="terms__item-head">Price and Payment</div>
+                    <div class="terms__item-excerpt">○ Pricing for sending voice and SOS emails are posted on the Medcall website.
+                        <br>○Medcall reserves the right to issue price changes in the event of a carrier price change. Price changes will be posted on the Medcall website.
+                        <br>○There is no refund if the service is terminated before the end of the billing period after the monthly service charge is incurred.
                 </div>
                 <div class="terms__item">
-                    <div class="terms__item-head">SOSアラート</div>
-                    <div class="terms__item-excerpt">着信者が電話に出られない場合、または通話が着信者に届かない場合、ユーザーは、ユーザーが登録した電子メールアドレスにSOSアラートメールを送信することを選択できます。</div>
+                    <div class="terms__item-head">Suspension and cancellation of service</div>
+                    <div class="terms__item-excerpt">Medcall can unilaterally terminate the user's account by notifying the user by some means in the following cases.
+                        <br>○ If there is copyright infringement on the medicine call website or service, or the data contained in them.
+                        <br>○ When there is an act that violates the rules.
+                        <br>This clause means Medcall can not be held responsible, in front of a legal court, for any account termination. </div>
                 </div>
                 <div class="terms__item">
-                    <div class="terms__item-head">サービス</div>
-                    <div class="terms__item-excerpt">くすりコールは、音声によるリマインダーと通知を設定および送信するためのオンラインアプリケーションを提供します。これにより、ユーザーは受信者の設定内容と音声リマインダーの内容を入力します。その後、設定したスケジュールで音声リマインダーを送信できます。また、ユーザーがSOSアラートの送信を選択した場合、サービスは事前に設定された電子メールを送信します。このサービスは、専門的な医療サービスではありません。<br><span class="red">医療サービスとしての使用はしないでください。</span></div>
+                    <div class="terms__item-head">User’s responsibility</div>
+                    <div class="terms__item-excerpt">○○ The user is responsible for the use of this service and must not use the service for illegal acts. The user must not abuse this service for any purpose that is fraudulent, illegal, or may be considered illegal.
+                        <br>○ User cannot resell this service.
+                        <br>○ The user guarantees that the information provided in connection with the registration to the service is accurate.
+                        <br>○ The user must confirm in advance that he / she will send a reminder to another recipient and obtain permission.
+                        <br>○ Users are prohibited from using the Services for advertising or marketing purposes (unless otherwise agreed in writing), or for illegal, immoral, or inappropriate purposes. Medcall reserves the right to monitor your use of our Services without notice to ensure compliance with these Terms of Use.
+                        <br>○ This service is used by the user for the intended use. This service cannot be used for any other purpose. If you do not use the Services according to your intended use, Medcall reserves the right to terminate your account at any time. </div>
                 </div>
                 <div class="terms__item">
-                    <div class="terms__item-head">利用規約の登録と承諾</div>
-                    <div class="terms__item-excerpt">くすりコールに登録することは、ユーザーはこれらの利用規約と<span class="blue">プライバシーポリシー</span>に同意するものとします。登録とは、本サービスの利用およびアクセスを許可するための電子メールアドレス、パスワード、および氏名を入力することを意味します。くすりコールは、これらの利用規約および/またはプライバシーポリシーを変更する権利を留保します。 くすりコールがそのような変更を行う場合、当規約書またはプライバシーポリシー上にて修正され、くすりコールのWebサイトに掲載されます。　</div>
-                </div>
-                <div class="terms__item">
-                    <div class="terms__item-head">価格と支払い条件</div>
-                    <div class="terms__item-excerpt">○音声およびSOS電子メールを送信するための価格設定および価格設定方法は、くすりコールWebサイト上に掲載しています。
-                        <br>○くすりコールは、通信事業者の価格変更が発生した場合は、価格変更を発行する権利を留保します。価格の変更は、くすりコールのWebサイト上でに記載されます。
-                        <br>○毎月のサービス料金が発生した後に、請求期間が終了する前にサービスを終了した場合の返金はありません。
-                        <br>○サービスをキャンセルすると、リマインダー通話は削除されます。</div>
-                </div>
-                <div class="terms__item">
-                    <div class="terms__item-head">サービスの停止とキャンセル</div>
-                    <div class="terms__item-excerpt">くすりコールは、以下の場合には、何らかの手段でユーザーに通知することにより、一方的にユーザーのアカウントを終了することができます。
-                        <br>○くすりコールWebサイトまたはサービス、またはそれらに含まれるデータに対する著作権侵害行為がある場合。
-                        <br>○規約に反する行為がある場合。
-                        <br>この条項により、アカウントの終了において法的にくすりコールの責任は問えないものとします。</div>
-                </div>
-                <div class="terms__item">
-                    <div class="terms__item-head">ユーザーの責任</div>
-                    <div class="terms__item-excerpt">○ユーザーは当サービスの使用に責任を負い、違法な行為にサービスを使用してはなりません。詐欺的、違法、または違法と見なされる可能性のある行為を目的とする場合、当サービスを悪用してはなりません。
-                        <br>○ユーザーは当サービスを転売することはできません。
-                        <br>○ユーザーは、サービスへの登録に関連して提供する情報が正確であることを保証します。
-                        <br>○ユーザーは、受信者にリマインダーを送信することを事前に確認し、許可を得る必要があります。
-                        <br>○ユーザーは、広告またはマーケティングの目的（別途書面での合意がない限り）、または違法、不道徳、​​または不適切な目的で当サービスを使用することを禁じられています。 くすりコールは、これらの利用規約を確実に遵守するために、通知なしに当社のサービスの使用を監視する権利を留保します。
-                        <br>○本サービスは、意図された使用のためにユーザーが利用するものです。他の目的で本サービスを利用することは出来ません。ユーザーが使用目的に従って本サービスを使用しない場合、くすりコールはいつでもユーザーのアカウントを終了する権利を留保します。</div>
-                </div>
-                <div class="terms__item">
-                    <div class="terms__item-head">くすりコールの責任</div>
-                    <div class="terms__item-excerpt">くすりコールは、別途書面にて合意がない限り、本サービスが実施されることを保証します。ただし、ユーザーは、技術的な理由により、サービスの可用性と機能が保証されない場合があります。当サービスの利用可能性および機能に関する一時的な制限は、いかなる種類の損害賠償を請求する権利はありません。 くすりコールは、サービスに障害が発生しないことを保証するものではありません。サービスの障害が報告された場合は直ちに修正し、できるだけ早くサービスの復興を努めます。 くすりコールは、メンテナンスを行うために、サービスまたはWebサイトへのアクセスを一時的に停止する場合があります。 くすりコールは、このようなサービスの一時的停止については、事前に電子メールで通知するよう努めます。
+                    <div class="terms__item-head">Medcall's Responsibility</div>
+                    <div class="terms__item-excerpt">Medcall guarantees that this service will be provided to the best of its ability.However, the User acknowledges that for technical reasons, the availability and functioning of the Service cannot be guaranteed. Temporary restrictions on the availability and functionality of this service does not qualify for damages of any kind. Medcall does not guarantee that the service will not fail. If a service failure is reported, we will correct it immediately and try to restore the service as soon as possible. Medcall may temporarily suspend access to services or websites for maintenance purposes. Medcall will endeavor to notify you in advance by e-mail of any temporary suspension of such services.
                         <br>
-                        <br>くすりコールは、以下に関して法定裁判所で法的な責任を負うことはできません。
+                        <br>Medcall cannot be held legally liable in court for any of the following:
                         <br>
-                        <br> ○ユーザーによるサービスの不適切または違法な使用。
-                        <br>○音声リマインダーのコンテンツに関し,ユーザー、受信者、または第三者が被った偏見（物理的または金銭的）に対して。
-                        <br>○ウェブサイトくすりコールおよびサービスの利用不可、または第三者のサービスの技術的障害または利用不能を含むがこれらに限定されない、ハードウェアまたはソフトウェアによるサービスの誤動作または一時的な利用不能を引き起こす技術的障害。 くすりコールサービスは（通信事業者など）に依存しています。</div>
+                        <br>○ Improper or illegal use of the service by the user.
+                        <br>○ Against prejudice (physical or financial) suffered by users, recipients, or third parties regarding audio reminder content.
+                        <br>○ Any technical failure that causes hardware or software malfunctions or temporary unavailability of services, including but not limited to the Medcall website and unavailability of services, or technical failures or unavailability of services of third parties of which Medcall services rely on (such as carriers). </div>
                 </div>
                 <div class="terms__item">
-                    <div class="terms__item-head">不可抗力</div>
-                    <div class="terms__item-excerpt">くすりコールは、その制御が及ばない事例が発生した場合、またはくすりコールの制御が及ばない第三者の行動の結果として、サービスを一時停止する場合があります。</div>
+                    <div class="terms__item-head">Force Majeure </div>
+                    <div class="terms__item-excerpt">Medcall may suspend service in any event out of its control or as a result of the actions of a third party outside the control of the Medcall. </div>
                 </div>
             </div>
         </div>

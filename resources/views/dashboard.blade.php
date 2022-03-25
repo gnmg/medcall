@@ -166,11 +166,8 @@
 
 
                                         <div class="text-center card-text">
-                                            <h1 class="text-xl font-bold leading-tight text-gray-900 md:text-2xl">
-                                                リマインダーは</h1>
-                                            <h1 class="text-xl font-bold leading-tight text-gray-900 md:text-2xl">
-                                                現在設定されていません</h1>
-
+                                            <h1 class="text-xl font-bold leading-tight text-gray-900 md:text-2xl">{{ __('lang.no_reminder')}}
+                                                </h1>
                                         </div>
 
                                         <div class="flex justify-center mt-10">

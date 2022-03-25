@@ -123,7 +123,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </nav>
                             @if (Auth::guest())
                             <div class="text-center saas_sign_up_btn">
-                                <a href="{{ url('/register') }}">無料お試し</a>
+                                <a href="{{ url('/register') }}">FREE TRIAL</a>
                             </div>
                             @else
 

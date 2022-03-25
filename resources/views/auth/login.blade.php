@@ -14,7 +14,8 @@
 
         <form method="POST" action="{{ route('login') }}">
             @csrf
-
+            <div class="text-base center mb-7"><span class="font-bold">Account Login
+                </span></div>
             <!-- Email Address -->
             <div>
                 <label class="text-sm text-gray-600 hover:text-gray-900" for="email">{{ __('lang.email') }} </label>

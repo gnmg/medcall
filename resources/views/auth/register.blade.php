@@ -12,9 +12,9 @@
         <form method="POST" action="{{ route('register') }}"
             onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('{{ __('lang.terms-agree')}}'); return false; }">
             @csrf
-            <div class="mb-2 text-3xl text-center">無料お試し申し込み</div>
+            <div class="mb-2 text-3xl text-center">14 Day Free Trial</div>
             <div class="text-base mb-7"><span class="font-bold">
-                </span> 登録して、14日間の無料体験を開始しましょう。クーポンコードをお持ちの方は、決済画面に入力すると、さらに追加16日間、合計30日間の無料体験をご利用いただけます。体験期間が終了するまで、クレジットカードには課金されません。</div>
+                </span>Register now for a free 14 day trial. Cancel anytime before the end of the 14 day trial and your credit card will not be charged.</div>
             <!-- Name -->
             <div>
                 <x-label for="name" />{{ __('lang.name')}}
@@ -54,9 +54,9 @@
                 <x-input id="user_telephone" class="block w-full mt-1" type="text"
                     placeholder="{{ __('lang.user_telephone_placeholder')}}" name="user_telephone" required autofocus />
             </div>
-            <div class="pt-3"><input class="mr-1" type="checkbox" name="checkbox" value="check" id="agree" /><a
-                    href="{{ url('/terms') }}" class="ml-2 text-indigo-600">利用規約</a>・<a href="{{ url('/privacy') }}"
-                    target="_blank" class="text-indigo-600">プライバシーポリシー</a>に同意の上でお進みください。</div>
+            <div class="pt-3"><input class="mr-1" type="checkbox" name="checkbox" value="check" id="agree"/>I agree to the <a
+                    href="{{ url('/terms') }}" class="text-indigo-600">Terms</a>, <a href="{{ url('/privacy') }}"
+                    target="_blank" class="text-indigo-600">Privacy Policy</a> and fees.</div>
 
 
             <div class="flex items-center justify-end mt-4">
