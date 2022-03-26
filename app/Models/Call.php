@@ -94,13 +94,12 @@ class Call extends Model
                     
                     Log::info("in sos");
                     $toMail = $row->sos_email;
-                    $data = array( "body" => "「くすりコール」のお電話に相手の方が反応しませんでした。
-                    お薬を飲み忘れている可能性もありますので、ご本人様とのご確認をお勧めいたします。");
+                    $data = array( "body" => "A medicine reminder call was not answered.  You or someone in your care may have for gotten to take their medicine.");
                     
                     Mail::send('max_attampt', $data, function($message) use ($toMail) {
                     $message->to($toMail)
-                    ->subject('「くすりコール」のリマインダー');
-                    $message->from(env('MAIL_FROM_ADDRESS'),'くすりコール');
+                    ->subject('「Medcall」Reminder Call Not Answered');
+                    $message->from(env('MAIL_FROM_ADDRESS'),'Medcall');
                     });
                     
                 } 
