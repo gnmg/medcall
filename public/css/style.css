@@ -1481,6 +1481,8 @@ remind
 question
 ----------------------------------------------------------------------------------*/
 
+
+/*
 .question {
     background: #d9ffdf;
     position: relative;
@@ -1495,6 +1497,7 @@ question
     border-top: 60px solid #1F2C5C;
     border-right: 60px solid transparent;
 }
+*/
 
 @media (max-width: 1000px) {
     .question {

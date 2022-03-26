@@ -350,9 +350,8 @@
                             </ul> -->
 
                             <p>
-                                Have peace of mind knowing that your loved one is taking their medicine. Give your loved one
-                                the independence they need that comes without having to be nagged. Know that your loved
-                                one will have better health outcomes.
+                                Have peace of mind knowing that your loved one or patient is taking their medicine. Give them
+                                the independence they need that comes without having to be nagged to take their medicine. Know that they will have better health outcomes.
 
                             </p>
 
@@ -367,36 +366,88 @@
                 </div>
             </div>
         </div>
-        <!-- /about first content -->
-        <!-- <div class="about_content_s2">
+        <div class="about_content_s2">
             <div class="row">
+
                 <div class="col-lg-6 col-md-12 wow fadeFromLeft d-none d-lg-block" data-wow-delay="300ms"
                     data-wow-duration="1500ms">
                     <div class="s2-about_img">
-                        <img src="assets/img-english/saas-c/banner/banner-img2.png" alt="">
+                        <img src="assets/img-english/saas-c/about/busy-people1.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 wow fadeFromRight" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="s2-about_text_icon">
                         <div class="s2-about_text saas2-headline pera-content">
-                            <h3>みまもるご家族やケアテイカーに…</h3>
+                            <h3>Busy People</h3>
                             <p>
-                                一緒に住んでいない高齢のご両親やお世話をしている人がお薬の飲み忘れがないか心配ですか？クスリコールは、お相手の方が電話に出ない場合に、登録者であるあなたのところにメールを送り、お薬の飲み忘れをお知らせしますので、薬の薬のリマインドに加えて、安全確認もできます。
+                                Too busy to remember to take your medicine. We understand. Medicine is often the last thing on your mind. For some people forgetting to take medicine can be life threatening. Let us help you remeber with a phone call to your mobile or home phone.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> -->
-        <!-- /about first content-->
+        </div>
     </div>
 </section>
 <!-- End of About  section
         ============================================= -->
+
+<!-- Start of pricing section
+        ============================================= -->
+<section id="s2-pricing" class="s2-pricing_section">
+    <div class="container">
+        <div class="text-center saas_two_section_title saas2-headline">
+            <h2 id="pricing"> Medcall Pricing</h2>
+            <p class="pt-2">
+                Signup now for a free 21 day trial. You can cancel anytime before the end of the free trial and your card will not be charged.
+            </p>
+        </div>
+        <!-- /section title -->
+        <div class="s2-pricing_content">
+            <div class="row justify-content-md-center">
+                <div class="col-lg-6 col-md-6 wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <div class="s2-pricing_item">
+                        <div class="clearfix text-center s2-pricing_price ">
+                            <strong><span class="plan-price-num">$21.50</span></strong></br>
+                            <strong><span class="plan-price-num-bottom">per month</span></strong>
+                        </div>
+                        
+
+                        <div class="s2-pricing_list ul-li-block">
+                            <ul>
+                                <li class="text-center">
+                                    21 Day Free Trial
+                                </li>
+                                <li class="text-center">
+                                    Up to 5 Reminder Calls a Day
+                                </li>
+                                <li class="text-center">
+                                    Cancel Anytime
+                                </li>
+                                <li class="text-center">
+                                    Personalized Reminder Message
+                                </li>
+                                <li class="text-center">
+                                    SOS Alert Email to Caregiver
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="s2-pricing_btn">
+                            <a href="register">Start Free Trial</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of pricing section
+        ============================================= -->
 <!-- Start of faq section
         ============================================= -->
 <section id="s2-faq" class="s2-faq_section relative-position">
-    <div class="container">
+    <div id="faq" class="container">
     <div id="features" class="text-center saas_two_section_title saas2-headline">
             <h2>Frequently Ask Questions</h2>
         </div>
@@ -507,65 +558,6 @@
     </div>
 </section>
 <!-- End of faq section
-        ============================================= -->
-<!-- Start of pricing section
-        ============================================= -->
-<section id="s2-pricing" class="s2-pricing_section">
-    <div class="container">
-        <div class="text-center saas_two_section_title saas2-headline">
-            <h2 id="pricing"> Med Call Pricing</h2>
-            <p class="pt-2">
-                Signup now for a free 21 day trial. You can cancel anytime before the end of the free trial and your card will not be charged.
-            </p>
-        </div>
-        <!-- /section title -->
-        <div class="s2-pricing_content">
-            <div class="row justify-content-md-center">
-                <div class="col-lg-6 col-md-6 wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <div class="s2-pricing_item">
-                        <div class="clearfix text-center s2-pricing_price ">
-                            <strong><span class="plan-price-num">$21.50</span></strong></br>
-                            <strong><span class="plan-price-num-bottom">per month</span></strong>
-                        </div>
-                        
-
-                        <div class="s2-pricing_list ul-li-block">
-                            <ul>
-                                <li class="text-center">
-                                    21 Day Free Trial
-                                </li>
-                                <li class="text-center">
-                                    Up to 5 Reminder Calls a Day
-                                </li>
-                                <li class="text-center">
-                                    Cancel Anytime
-                                </li>
-                                <li class="text-center">
-                                    Personalized Reminder Message
-                                </li>
-                                <li class="text-center">
-                                    SOS Alert Email to Caregiver
-                                </li>
-
-                            </ul>
-                        </div>
-                        <div class="s2-pricing_btn">
-                            <a href="register">Start Free Trial</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End of pricing section
-        ============================================= -->
-
-<!-- Start of early sign up section
-        ============================================= -->
-
-<!-- End of early sign up section
-        ============================================= -->
 
 <!-- Start of about sign up section
         ============================================= -->
