@@ -81,6 +81,34 @@
                             {{ __("Enter the time you want to be called.")}}</div>
                     </div>
                 </div>
+				<div class="w-full mb-7">
+                    <div class="">
+                        <label for="time" class="block mt-3 mb-2 mr-3 text-lg">{{ __('lang.timezone')}}<span
+                                class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-3">Required</span></label>
+
+                      <!--  <input type="text" id="timezone" name="timezone" placeholder="{{ __('lang.timezone_placeholder')}}"
+                            class=" text-sm border-gray-300 md:w-3/4 w-full shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5 @error('time') border-2 border-red-500 @enderror"
+                            value="{{ old('timezone') }}">-->
+							<select id="timezone" name="timezone" class=" text-sm border-gray-300 md:w-3/4 w-full shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5 @error('time') border-2 border-red-500 @enderror">
+							<option value="(UTC-08:00) Pacific Time (US and Canada) America/Los_Angeles">(UTC-08:00) Pacific Time (US and Canada) America/Los_Angeles</option>
+							<option value="(UTC-07:00) Mountain Time (US and Canada) America/Denver">(UTC-07:00) Mountain Time (US and Canada) America/Denver</option>
+							<option value="(UTC-06:00) Central Time (US and Canada) America/Chicago">(UTC-06:00) Central Time (US and Canada) America/Chicago</option>
+							<option value="(UTC-05:00) Eastern Time (US and Canada) America/New_York">(UTC-05:00) Eastern Time (US and Canada) America/New_York</option>
+							<option value="(UTC +9) JST Japan Standard Time">(UTC +9) JST Japan Standard Time</option>
+							
+							</select>
+
+                        @error('timezone')
+                        <div class="mt-2 text-sm text-red-500">
+                            {{ $message }}
+                        </div>
+                        @enderror
+
+
+                        <div class="block mt-3 mb-2 mr-3 text-sm text-gray-400">
+                            {{ __("Enter the timeZone.")}}</div>
+                    </div>
+                </div>
 
 
                 <div class="w-full mb-4">
