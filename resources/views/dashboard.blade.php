@@ -42,6 +42,10 @@
                                             style="text-align: start">
                                             {{ __('lang.time')}}
                                         </th>
+										 <th class="px-6 py-3 text-sm font-semibold leading-4 tracking-wider text-gray-700 uppercase border-b border-gray-200 bg-gray-50"
+                                            style="text-align: start">
+                                            {{ __('lang.timezone')}}
+                                        </th>
                                         <th class="px-6 py-3 text-sm font-semibold leading-4 tracking-wider text-gray-700 uppercase border-b border-gray-200 bg-gray-50"
                                             style="text-align: start">
                                             {{ __('lang.phone_number')}}

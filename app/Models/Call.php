@@ -13,7 +13,7 @@ class Call extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['title', 'time', 'phone_numbers', 'message_voice', 'message', 'sos', 'sos_email', 'user_id'];
+    protected $fillable = ['title', 'time','timezone', 'ust_time', 'phone_numbers', 'message_voice', 'message', 'sos', 'sos_email', 'user_id'];
 
     public function user()
     {
