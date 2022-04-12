@@ -69,8 +69,9 @@ class CallController extends Controller
         $call = $request->all();
         //$call['phone_numbers']=$phoneNo;
 		$time= $request->post('time');
-		$fromTz = "UTC";
-		$toTz = $request->post('timezone');
+		//$fromTz = "UTC";
+		$fromTz = $request->post('timezone');
+		$toTz = "UTC";
 		
 		$date = new DateTime($time, new DateTimeZone($fromTz));
         $date->setTimezone(new DateTimeZone($toTz));
@@ -121,13 +122,17 @@ class CallController extends Controller
     public function update(Request $request, $id)
     {
         $time= $request->post('time');
-		$fromTz = "UTC";
-		$toTz = $request->post('timezone');
+		//$fromTz = "UTC";
+		//$toTz = $request->post('timezone');
+		
+		$fromTz = $request->post('timezone');
+		$toTz = "UTC";
 		
 		$date = new DateTime($time, new DateTimeZone($fromTz));
         $date->setTimezone(new DateTimeZone($toTz));
 		$ust_time= $date->format('H:i');
         //$time= $date->format('H:i');
+		
 		
 		//$call['ust_time'] = $ust_time;
 		
