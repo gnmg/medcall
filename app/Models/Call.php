@@ -55,9 +55,9 @@ class Call extends Model
             foreach($current_calls as $row){
                 
                 $rawNumber = ltrim($row->phone_numbers,'0');
-                $phoneNo = '+81'.$rawNumber;
+                $phoneNo = '+'.$rawNumber;
 
-                
+            //Changed time to ust_time    
                 DB::table('call_queue')->insert(
                       array(
                           'title' => $row->title,
@@ -149,4 +149,3 @@ class Call extends Model
     }
    
 }
-
