@@ -112,7 +112,7 @@ class Call extends Model
       
             
         $call_queue = DB::table('call_queue')
-                ->whereRaw("ust_time = '".$currentTime."'")
+                ->whereRaw("time = '".$currentTime."'")
                 ->get();
                 
          
