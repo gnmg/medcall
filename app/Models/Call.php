@@ -61,7 +61,7 @@ class Call extends Model
                 DB::table('call_queue')->insert(
                       array(
                           'title' => $row->title,
-                          'time' => $row->ust_time,
+                          'ust_time' => $row->ust_time,
                           'attempt' => 1,
                           'phone_numbers' => $phoneNo,
                           //'phone_numbers' => '+918866607616',
