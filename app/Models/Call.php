@@ -77,7 +77,7 @@ class Call extends Model
         }
         
          $call_queue_max_attampt = DB::table('call_queue')
-            ->whereRaw('ust_time = "'.$currentTime.'" AND `attempt` > 3')
+            ->whereRaw('time = "'.$currentTime.'" AND `attempt` > 3')
             ->get();
             
           
