@@ -55,7 +55,7 @@ class Call extends Model
             foreach($current_calls as $row){
                 
                 $rawNumber = ltrim($row->phone_numbers,'0');
-                $phoneNo = '+81'.$rawNumber;
+                $phoneNo = '+'.$rawNumber;
 
                 
                 DB::table('call_queue')->insert(
