@@ -46,13 +46,13 @@ class CallController extends Controller
      */
     public function store(Request $request)
     {
-        $validatedData = $request->validate([
+         $validatedData = $request->validate([
             'title' => 'required|max:50',
             'time' => 'required',
             'timezone' => 'required',
             // 'phone_numbers' => ['required', 'regex:/^(0([0-9][0-9]{4}[0-9]{2}[0-9]{3}|[0-9]{3}[0-9]{2}|[0-9]{4}[0-9])[0-9]{4}$|050{4}{4})$/'],
-           'phone_numbers' => ['required', 'regex:/^(0([0-9][0-9]{4}[0-9]{2}[0-9]{3}|[0-9]{3}[0-9]{2}|[0-9]{4}[0-9])[0-9]{4}$|050-?\d{4}-?\d{4})$/'],
-             //'phone_numbers' => 'required',
+           //'phone_numbers' => ['required', 'regex:/^(0([0-9][0-9]{4}[0-9]{2}[0-9]{3}|[0-9]{3}[0-9]{2}|[0-9]{4}[0-9])[0-9]{4}$|050-?\d{4}-?\d{4})$/'],
+             'phone_numbers' => 'required',
             'message_voice' => 'required',
             'message' => 'required',
             'sos' => 'required',
@@ -68,17 +68,18 @@ class CallController extends Controller
         
         $call = $request->all();
         //$call['phone_numbers']=$phoneNo;
-		$time= $request->post('time');
+		$ust_time= $request->post('time');
 		//$fromTz = "UTC";
 		$fromTz = $request->post('timezone');
 		$toTz = "UTC";
 		
-		$date = new DateTime($time, new DateTimeZone($fromTz));
+		$date = new DateTime($ust_time, new DateTimeZone($fromTz));
         $date->setTimezone(new DateTimeZone($toTz));
-		$ust_time= $date->format('H:i');
+		$time= $date->format('H:i');
         //$time= $date->format('H:i');
 		
 		$call['ust_time'] = $ust_time;
+		$call['time'] = $time;
         
 
         $call['user_id'] = $request->user()->id;
@@ -121,16 +122,16 @@ class CallController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $time= $request->post('time');
+         $ust_time= $request->post('time');
 		//$fromTz = "UTC";
 		//$toTz = $request->post('timezone');
 		
 		$fromTz = $request->post('timezone');
 		$toTz = "UTC";
 		
-		$date = new DateTime($time, new DateTimeZone($fromTz));
+		$date = new DateTime($ust_time, new DateTimeZone($fromTz));
         $date->setTimezone(new DateTimeZone($toTz));
-		$ust_time= $date->format('H:i');
+		$time= $date->format('H:i');
         //$time= $date->format('H:i');
 		
 		
@@ -140,8 +141,8 @@ class CallController extends Controller
             'title' => 'required|max:50',
             'time' => 'required',
             'timezone' => 'required',
-            'phone_numbers' => ['required', 'regex:/^0([0-9][0-9]{4}[0-9]{2}[0-9]{3}|[0-9]{3}[0-9]{2}|[0-9]{4}[0-9])[0-9]{4}$/'],
-            // 'phone_numbers' => 'required',
+            //'phone_numbers' => ['required', 'regex:/^0([0-9][0-9]{4}[0-9]{2}[0-9]{3}|[0-9]{3}[0-9]{2}|[0-9]{4}[0-9])[0-9]{4}$/'],
+             'phone_numbers' => 'required',
             'message_voice' => 'required',
             'message' => 'required',
             'sos' => 'required',
@@ -149,6 +150,7 @@ class CallController extends Controller
         ]);
 		
 		$validatedData['ust_time'] = $ust_time;
+		$validatedData['time'] = $time;
         call::whereId($id)->update($validatedData);
 
         return redirect('/dashboard')->with('success', 'リマインダーが保存されました。');

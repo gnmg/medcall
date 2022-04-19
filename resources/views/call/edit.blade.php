@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<!-- component -->
+<!-- component   -->
 
 @if ($errors->any())
 
@@ -65,7 +65,7 @@
                                 class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-3">Required</span></label>
                         <input type="text" id="time" name="time" placeholder="Time"
                             class=" bs-timepicker text-sm border-gray-300 md:w-3/4 w-full shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5 @error('time') border-2 border-red-500 @enderror"
-                            value="{{ old('time',date('H:i',strtotime($call->time))) }}">
+                            value="{{ old('time',date('H:i',strtotime($call->ust_time))) }}">
 
                         @error('time')
                         <div class="mt-2 text-sm text-red-500">

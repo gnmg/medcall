@@ -63,7 +63,7 @@
                                         </td>
                                         <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
                                             <!-- {{str_replace(':00', '', $call -> time)}} -->
-                                            {{$call -> time}}
+                                            {{$call -> ust_time}}
                                         </td>
 										<td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
                                             <!-- {{str_replace(':00', '', $call -> time)}} -->

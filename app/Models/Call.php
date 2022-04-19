@@ -29,7 +29,7 @@ class Call extends Model
         
 
         $q =  DB::table('calls')
-                ->whereRaw('ust_time = '.$currentTime)
+                ->whereRaw('time = '.$currentTime)
                 ->toSql();
                 
                 
@@ -41,7 +41,7 @@ class Call extends Model
 
 
         $current_calls = DB::table('calls')
-                ->whereRaw("ust_time = '".$currentTime."'")
+                ->whereRaw("time = '".$currentTime."'")
                 ->get();
         
          
@@ -61,7 +61,7 @@ class Call extends Model
                 DB::table('call_queue')->insert(
                       array(
                           'title' => $row->title,
-                          'time' => $row->ust_time,
+                          'time' => $row->time,
                           'attempt' => 1,
                           'phone_numbers' => $phoneNo,
                           //'phone_numbers' => '+918866607616',
@@ -126,7 +126,7 @@ class Call extends Model
                         
                         $attempt = (int)$row->attempt+1;
                         
-                        $next_attmpt_time = date('H:i',strtotime('+5 minutes',strtotime($row->ust_time)));
+                        $next_attmpt_time = date('H:i',strtotime('+5 minutes',strtotime($row->time)));
                       
                         $call = \Telnyx\Call::create([
                                 'connection_id' => '1857964641603290377',
