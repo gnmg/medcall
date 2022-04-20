@@ -29,7 +29,7 @@ return [
     'phone_number' => 'Phone Number',
     'phone_number_placeholder' => 'No Hyphens',
     'time' => 'Time',
-    'timezone' => 'TimeZone',
+    'timezone' => 'Time Zone',
     'time_placeholder' => '',
     'timezone_placeholder' => '',
     'user_telephone' => 'Phone Number',
