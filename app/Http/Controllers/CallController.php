@@ -52,6 +52,7 @@ class CallController extends Controller
             'timezone' => 'required',
             // 'phone_numbers' => ['required', 'regex:/^(0([0-9][0-9]{4}[0-9]{2}[0-9]{3}|[0-9]{3}[0-9]{2}|[0-9]{4}[0-9])[0-9]{4}$|050{4}{4})$/'],
            //'phone_numbers' => ['required', 'regex:/^(0([0-9][0-9]{4}[0-9]{2}[0-9]{3}|[0-9]{3}[0-9]{2}|[0-9]{4}[0-9])[0-9]{4}$|050-?\d{4}-?\d{4})$/'],
+        //    'phone_numbers' => ['required', 'regex:/^1?[2-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]{9}$/'],
              'phone_numbers' => 'required',
             'message_voice' => 'required',
             'message' => 'required',

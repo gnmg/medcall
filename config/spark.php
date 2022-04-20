@@ -93,11 +93,11 @@ return [
     */
 
     'receipt_data' => [
-        'vendor' => 'KusuriKall',
-        'product' => 'リマインダーコール',
-        'street' => '〒399-4117長野県駒ヶ根市',
-        'location' => '赤穂10405-3',
-        'phone' => '050-3186-2388',
+        'vendor' => 'MedCall',
+        // 'product' => 'リマインダーコール',
+        // 'street' => '〒399-4117長野県駒ヶ根市',
+        // 'location' => '赤穂10405-3',
+        // 'phone' => '050-3186-2388',
     ],
 
     /*
@@ -123,14 +123,14 @@ return [
  
             'plans' => [
                 [
-                    'name' => '月額プラン',
+                    'name' => 'Monthly',
                     'short_description' => '',
                     'trial_days' => 14,
                     'monthly_id' => getenv( 'STRIPE_PRICE'),
                     'features' => [ 
-                        '毎日3回まで固定電話薬コール',
-                        'パーソナライズされたメッセージ内容 ',
-                        '電話に出ないとメールでお知らせ',
+                        '5 Reminder Call a Day',
+                        'Personalized Message',
+                        'SOS email to caregiver',
                     ],
                 ],
             ],

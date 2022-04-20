@@ -27,7 +27,7 @@ return [
     'top' => 'トップ',
     'reminder_title' => 'Title',
     'phone_number' => 'Phone Number',
-    'phone_number_placeholder' => 'No Hyphens',
+    'phone_number_placeholder' => 'No dashes. ex. 16194589632',
     'time' => 'Time',
     'timezone' => 'Time Zone',
     'time_placeholder' => '',
@@ -63,7 +63,7 @@ return [
     'privacy' => 'Privacy Policy',
     'terms-agree' => '利用規約・プライバシーポリシーに同意の上でお進みください。',
     'read-terms' => 'I have read and agree to the Terms and Conditions and Privacy Policy.',
-    'edit_reminder' => 'リマインダーを変化',
+    'edit_reminder' => 'Edit your reminder',
     'can_not_add_anymore_reminders' => 'You can not add anymore reminders.',
     'user_telephone_placeholder' => '',
     
