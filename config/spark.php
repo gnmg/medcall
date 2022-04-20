@@ -125,7 +125,7 @@ return [
                 [
                     'name' => 'Monthly',
                     'short_description' => '',
-                    'trial_days' => 14,
+                    'trial_days' => 21,
                     'monthly_id' => getenv( 'STRIPE_PRICE'),
                     'features' => [ 
                         '5 Reminder Calls a Day',
