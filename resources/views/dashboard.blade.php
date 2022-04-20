@@ -70,7 +70,7 @@
                                             {{$call -> timezone}}
                                         </td>
                                         <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
-                                            0{{ $call -> phone_numbers }}
+                                            {{ $call -> phone_numbers }}
                                         </td>
                                         <td
                                             class="px-6 py-4 text-sm font-medium leading-5 whitespace-no-wrap border-b border-gray-200">
@@ -217,12 +217,16 @@
                                         <div class='table_cell'>{{ $call -> title }}</div>
                                     </div>
                                     <div class='table_small'>
+                                        <div class='table_cell'>{{ __('lang.timezone')}}</div>
+                                        <div class='table_cell'>{{$call -> timezone}}</div>
+                                    </div>
+                                    <div class='table_small'>
                                         <div class='table_cell'>{{ __('lang.time')}}</div>
                                         <div class='table_cell'>{{$call -> time}}</div>
                                     </div>
                                     <div class='table_small'>
                                         <div class='table_cell'>{{ __('lang.phone_number')}}</div>
-                                        <div class='table_cell'>0{{ $call -> phone_numbers }}</div>
+                                        <div class='table_cell'>{{ $call -> phone_numbers }}</div>
                                     </div>
                                     <div class='table_small'>
                                         <div class='table_cell'><a href="{{ route('call.edit', $call->id)}}"
