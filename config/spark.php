@@ -128,7 +128,7 @@ return [
                     'trial_days' => 14,
                     'monthly_id' => getenv( 'STRIPE_PRICE'),
                     'features' => [ 
-                        '5 Reminder Call a Day',
+                        '5 Reminder Calls a Day',
                         'Personalized Message',
                         'SOS email to caregiver',
                     ],
