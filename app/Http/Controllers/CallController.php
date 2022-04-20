@@ -85,7 +85,7 @@ class CallController extends Controller
         $call['user_id'] = $request->user()->id;
         Call::create($call);
    
-        return redirect('/dashboard')->with('success', 'リマインダーが保存されました。');
+        return redirect('/dashboard')->with('success', 'Your reminder was saved successfully.');
     }
 
     /**
@@ -153,7 +153,7 @@ class CallController extends Controller
 		$validatedData['time'] = $time;
         call::whereId($id)->update($validatedData);
 
-        return redirect('/dashboard')->with('success', 'リマインダーが保存されました。');
+        return redirect('/dashboard')->with('success', 'Your reminder was saved successfully.');
     }
 
     /**
@@ -167,6 +167,6 @@ class CallController extends Controller
         $call = Call::findOrFail($id);
         $call->delete();
 
-        return redirect('/dashboard')->with('success', 'リマインダーは削除されました。');
+        return redirect('/dashboard')->with('success', 'Your remider was deleted successfully.');
     }
 }

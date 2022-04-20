@@ -16,7 +16,7 @@
         <div class=" sm:mt-24 md:mt-12">
             <div class="flex justify-between vis">
                 <h2 class="text-xl font-bold vis">{{ __('lang.myreminders')}}</h2>
-                @if(is_countable($calls) && count($calls) < 3) <a href="{{route('call.create')}}"
+                @if(is_countable($calls) && count($calls) < 5) <a href="{{route('call.create')}}"
                     class="flex px-4 py-2 font-bold text-white bg-green-400 rounded hover:bg-green-500">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
                         <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" stroke-width="20" fill="white" />
