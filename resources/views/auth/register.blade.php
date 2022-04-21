@@ -12,7 +12,7 @@
         <form method="POST" action="{{ route('register') }}"
             onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('{{ __('lang.terms-agree')}}'); return false; }">
             @csrf
-            <div class="mb-2 text-3xl text-center">14 Day Free Trial</div>
+            <div class="mb-2 text-3xl text-center">21 Day Free Trial</div>
             <div class="text-base mb-7"><span class="font-bold">
                 </span>Register now for a free 14 day trial. Cancel anytime before the end of the 14 day trial and your credit card will not be charged.</div>
             <!-- Name -->
