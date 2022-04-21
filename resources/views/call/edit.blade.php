@@ -87,12 +87,14 @@
                             class=" text-sm border-gray-300 md:w-3/4 w-full shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5 @error('time') border-2 border-red-500 @enderror"
                             value="{{ old('timezone') }}">-->
 							<select id="timezone" name="timezone" class=" text-sm border-gray-300 md:w-3/4 w-full shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5 @error('time') border-2 border-red-500 @enderror">
-							<option value="America/Los_Angeles"  @if($call->timezone =='America/Los_Angeles') {{ "selected='selected'" }} @endif  >(UTC-08:00) Pacific Time (US and Canada) America/Los_Angeles</option>
-							
-							<option value="America/Denver" @if($call->timezone =='America/Denver') {{ "selected='selected'" }} @endif >(UTC-07:00) Mountain Time (US and Canada) America/Denver</option>
-							<option value="America/Chicago" @if($call->timezone =='America/Chicago') {{ "selected='selected'" }} @endif >(UTC-06:00) Central Time (US and Canada) America/Chicago</option>
-							<option value="America/New_York" @if($call->timezone =='America/New_York') {{ "selected='selected'" }} @endif >((UTC-05:00) Eastern Time (US and Canada) America/New_York</option> 
-							<option value="Japan" @if($call->timezone =='Japan') {{ "selected='selected'" }} @endif >(UTC +9) JST Japan Standard Time</option> 
+							<option value="America/Los_Angeles"  @if($call->timezone =='America/Los_Angeles') {{ "selected='selected'" }} @endif  >Pacific Time (US and Canada) America/Los_Angeles</option>
+							<option value="America/Phoenix"  @if($call->timezone =='America/Phoenix') {{ "selected='selected'" }} @endif  >Mountain Time (US and Canada) America/Pheonix</option>
+							<option value="America/Denver" @if($call->timezone =='America/Denver') {{ "selected='selected'" }} @endif >Mountain Time (US and Canada) America/Denver</option>
+							<option value="America/Chicago" @if($call->timezone =='America/Chicago') {{ "selected='selected'" }} @endif >Central Time (US and Canada) America/Chicago</option>
+							<option value="America/New_York" @if($call->timezone =='America/New_York') {{ "selected='selected'" }} @endif >Eastern Time (US and Canada) America/New York</option>
+                            <option value="Pacific/Honolulu" @if($call->timezone =='America/New_York') {{ "selected='selected'" }} @endif >Hawaii Time</option>
+                            <option value="America/Anchorage" @if($call->timezone =='America/New_York') {{ "selected='selected'" }} @endif >Alaska Time</option> 
+							<option value="Japan" @if($call->timezone =='Japan') {{ "selected='selected'" }} @endif >Japan Standard Time</option> 
 							
 							</select>
 
