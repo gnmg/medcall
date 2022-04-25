@@ -5,7 +5,7 @@
     <meta charset="utf-8">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-204286431-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-860L81E2L0"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -14,29 +14,11 @@
     }
     gtag('js', new Date());
 
-    gtag('config', 'UA-204286431-1');
-    </script> -->
+    gtag('config', 'G-860L81E2L0');
+    </script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Google Tag Manager -->
-    <!-- <script>
-    (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-K79J7JD');
-    </script> -->
-    <!-- End Google Tag Manager -->
-    <!-- CSRF Token -->
+
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>MedCall</title>
@@ -58,18 +40,20 @@
     <script type="text/javascript" src="{{ asset('js/timepicker.min.js') }}"></script>
 
     <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/623d6bfc2abe5b455fc18f6f/1fuvurkvm';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+    (function() {
+        var s1 = document.createElement("script"),
+            s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/623d6bfc2abe5b455fc18f6f/1fuvurkvm';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
 
 
     <script type="text/javascript" src="https://static.leaddyno.com/js"></script>
@@ -78,38 +62,7 @@ s0.parentNode.insertBefore(s1,s0);
     LeadDyno.recordVisit();
     LeadDyno.autoWatch();
     </script>
-
-
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XY58M9JFJS"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'G-XY58M9JFJS');
-    gtag('config', 'AW-768058142');
-    </script> -->
-    <!-- Event snippet for Kusuri-Subscribe conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-    <!-- <script>
-    function gtag_report_conversion(url) {
-        var callback = function() {
-            if (typeof(url) != 'undefined') {
-                window.location = url;
-            }
-        };
-        gtag('event', 'conversion', {
-            'send_to': 'AW-768058142/2K18CK2k8OQCEJ7Gnu4C',
-            'event_callback': callback
-        });
-        return false;
-    }
-    </script> -->
+  
 
     <style>
     .table {
@@ -292,10 +245,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 </head>
 
 <body class="min-h-screen bg-gray-100 font-body">
-    <!-- Google Tag Manager (noscript) -->
-    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K79J7JD" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript> -->
-    <!-- End Google Tag Manager (noscript) -->
+    
     <div id="app">
 
         <div class="flex flex-col md:flex-row">

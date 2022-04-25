@@ -5,17 +5,14 @@
     <meta charset="UTF-8">
     <title>MedCall</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-204286431-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-860L81E2L0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-204286431-1');
-    </script>
+  gtag('config', 'G-860L81E2L0');
+</script>
 
 
     <link rel="stylesheet" href="css/style.css">
@@ -40,19 +37,6 @@
     })();
     </script>
     <!--End of Tawk.to Script-->
-
-    <!-- Global site tag (gtag.js) - Google Ads: 768058142 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-768058142"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'AW-768058142');
-    </script>
 
     <script type="text/javascript" src="https://static.leaddyno.com/js"></script>
     <script>
