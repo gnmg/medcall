@@ -18519,6 +18519,9 @@ div#pm-preloader {
     font-weight: bold;
     color: #4D4D4D;
 }
+p .terms {
+    margin-bottom: 20px;
+}
 @media (max-width: 1000px) {
     .terms__item-excerpt {
         padding: 15px 0;
@@ -18742,4 +18745,5 @@ footer
 .protection__inner {
     width: 800px;
     margin: 0 auto;
+    margin-bottom: 200px;
 }

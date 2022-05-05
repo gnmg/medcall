@@ -102,8 +102,8 @@
                 <li style="line-height: 1.5;"><span style="font-size: 15px; color: rgb(89, 89, 89);"><span
                             style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">Visit
                                 our website<bdt class="block-component"></bdt> at <bdt class="question"><a
-                                        href="http://www.med-call.com" target="_blank"
-                                        data-custom-class="link">http://www.med-call.com</a></bdt><span
+                                        href="http://www.medicine-call.com" target="_blank"
+                                        data-custom-class="link">http://www.medicine-call.com</a></bdt><span
                                     style="font-size: 15px;"><span style="color: rgb(89, 89, 89);"><span
                                             data-custom-class="body_text"><span style="font-size: 15px;"><span
                                                     style="color: rgb(89, 89, 89);">

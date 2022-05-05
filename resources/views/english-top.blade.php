@@ -13,7 +13,7 @@
                             Help Your Loved One Remember Their Medicine
                         </h1>
                         <p>
-                            Receive up to 5 calls a day with personalized message. We will even send a SOS email if the
+                            Receive up to 5 calls a day with a personalized message. We will even send a SOS email if the
                             call is not answered. 
                         </p>
                         <div class="text-center banner_btn">
@@ -408,7 +408,7 @@
                 <div class="col-lg-6 col-md-6 wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="s2-pricing_item">
                         <div class="clearfix text-center s2-pricing_price ">
-                            <strong><span class="plan-price-num">$21.50</span></strong></br>
+                            <strong><span class="plan-price-num">$19.50</span></strong></br>
                             <strong><span class="plan-price-num-bottom">per month</span></strong>
                         </div>
                         
