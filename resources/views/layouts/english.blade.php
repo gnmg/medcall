@@ -111,9 +111,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="clearfix float-right main_menu_list">
                             <nav class="clearfix s2-main-navigation ul-li">
                                 <ul id="main-nav" class="clearfix navbar-nav text-capitalize">
-                                    <li><a href="#features">{{ __('lang.features')}}</a></li>
-                                    <li><a href="#s2-pricing">{{ __('lang.pricing')}}</a></li>
-                                    <li><a href="#faq">{{ __('lang.faq')}}</a></li>
+                                    <li><a href="index.php#features">{{ __('lang.features')}}</a></li>
+                                    <li><a href="index.php#s2-pricing">{{ __('lang.pricing')}}</a></li>
+                                    <li><a href="index.php#faq">{{ __('lang.faq')}}</a></li>
                                     @if (Auth::guest())
                                     <li><a href="{{ url('/login') }}">{{ __('lang.login')}}</a></li>
                                     @else
@@ -148,9 +148,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                         <nav class="clearfix s2-mobile-main-navigation ul-li">
                             <ul id="m-main-nav" class="clearfix navbar-nav text-capitalize">
-                                <li><a href="#features">{{ __('lang.features')}}</a></li>
-                                <li><a href="#s2-pricing">{{ __('lang.pricing')}}</a></li>
-                                <li><a href="#faq">{{ __('lang.faq')}}</a></li>
+                                <li><a href="index.php#features">{{ __('lang.features')}}</a></li>
+                                <li><a href="index.php#s2-pricing">{{ __('lang.pricing')}}</a></li>
+                                <li><a href="index.php#faq">{{ __('lang.faq')}}</a></li>
                                 @if (Auth::guest())
                                 <li><a href="{{ url('/login') }}">{{ __('lang.login')}}</a></li>
                                 @else
@@ -175,8 +175,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="footer__nav">
                     <ul class="footer__lists">
                         <!-- <li class="footer__list"><a href="/"><i class="fas fa-caret-right"></i>トップページ</a></li> -->
-                        <li class="footer__list"><a href="#faq"><i class="fas fa-caret-right"></i>FAQ</a></li>
-                        <li class="footer__list"><a href="#features"><i class="fas fa-caret-right"></i>Features</a></li>
+                        <li class="footer__list"><a href="index.php#faq"><i class="fas fa-caret-right"></i>FAQ</a></li>
+                        <li class="footer__list"><a href="index.php#features"><i class="fas fa-caret-right"></i>Features</a></li>
                         <!-- <li class="footer__list"><a href="dairiten"><i class="fas fa-caret-right"></i>代理店</a></li> -->
                         @if (Auth::guest())
                         <li class="footer__list"><a href="{{ url('/login') }}"><i class="fas fa-caret-right"></i>{{ __('lang.login')}}</a></li>
@@ -184,7 +184,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <li class="footer__list"><a
                                 href="{{ url('/dashboard') }}"><i class="fas fa-caret-right"></i>{{ __('lang.myreminders')}}</a></li>
                         @endif
-                        <li class="footer__list"><a href="#pricing"><i class="fas fa-caret-right"></i>Pricing</a></li>
+                        <li class="footer__list"><a href="index.php#pricing"><i class="fas fa-caret-right"></i>Pricing</a></li>
                         <li class="footer__list"><a href="https://tawk.to/chat/623d6bfc2abe5b455fc18f6f/1fuvurkvm"><i
                                     class="fas fa-caret-right"></i>Contact Us</a></li>
                         <!-- <li class="footer__list"><a href="#flow"><i class="fas fa-caret-right"></i>ご利用のながれ</a></li> -->
