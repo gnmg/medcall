@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <title>MedCall</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-860L81E2L0"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-226956319-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-860L81E2L0');
+  gtag('config', 'UA-226956319-1');
 </script>
+
 
 
     <link rel="stylesheet" href="css/style.css">
