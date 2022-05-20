@@ -5,37 +5,24 @@
     <meta charset="UTF-8">
     <title>MedCall</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-204286431-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-226956319-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+  gtag('config', 'UA-226956319-1');
+</script>
 
-    gtag('config', 'UA-204286431-1');
-    </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BXH44KYZJY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-
-    <!-- Google Tag Manager -->
-    <!-- <script>
-    (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-K79J7JD');
-    </script> -->
-    <!-- End Google Tag Manager -->
+  gtag('config', 'G-BXH44KYZJY');
+</script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="assets/img/saas-c/phone.svg" type="image/x-icon">
