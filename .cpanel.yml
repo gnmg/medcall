@@ -1,0 +1,5 @@
+---
+    deployment:
+          tasks:
+            - export DEPLOYPATH=/home/kusurikall/public_html/  # Add /<app_folder> if require
+            - /bin/cp -r * $DEPLOYPATH
